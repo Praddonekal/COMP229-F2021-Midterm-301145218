@@ -1,3 +1,7 @@
+//Pradyumna Donekal
+//ID: 301145218
+//26/06/21 
+
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
@@ -25,12 +29,6 @@ router.get('/edit/:id', bookController.displayEditPage);
 * add your code to 
 * POST Route for processing the Edit page - UPDATE Operation 
 */
-router.post('/edit/:id', bookController.processEditPage);
 
-
-/* add your code to 
-*  GET to perform  Deletion - DELETE Operation 
-*/
-router.get('/delete/:id', bookController.performDelete);
 
 module.exports = router;
